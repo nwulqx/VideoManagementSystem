@@ -21,5 +21,10 @@ public class VideoApplication {
 		return "index";
 	}
 
+	@RequestMapping("/t")
+	public String test() {
+		return "test";
+	}
+
 }
 

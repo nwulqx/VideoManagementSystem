@@ -1,4 +1,6 @@
-import * as React from 'react';
-import * as ReactDom from 'react-dom';
+import React from 'react';
+import ReactDom from 'react-dom';
 
-ReactDom.render(<div>Hello World!</div>, document.getElementById('app'));
+import VideoUpLoader from './VideoUploader';
+
+ReactDom.render(<VideoUpLoader />, document.getElementById('app'));

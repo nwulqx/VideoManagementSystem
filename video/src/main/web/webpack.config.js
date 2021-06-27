@@ -10,7 +10,6 @@ var config = {
     filename: "bundle.js"
   },
   externals: {
-    "antd": "antd",
     "moment": "moment",
   },
   resolve: {
